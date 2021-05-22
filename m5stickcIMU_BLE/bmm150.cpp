@@ -30,8 +30,8 @@ int8_t BMM150::initialize(void)
 
 	/* Setting the preset mode as Low power mode 
 	i.e. data rate = 10Hz XY-rep = 1 Z-rep = 2*/
-	set_presetmode(BMM150_PRESETMODE_LOWPOWER);
-	// set_presetmode(BMM150_HIGHACCURACY_REPZ);
+	//set_presetmode(BMM150_PRESETMODE_LOWPOWER);
+	 set_presetmode(BMM150_HIGHACCURACY_REPZ);
 	
   return BMM150_OK;
 }
